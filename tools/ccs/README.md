@@ -1,5 +1,5 @@
 # Cross Cluster Search (CCS) environment
-This environment enables the deployment of a Wazuh Indexer cluster with Cross Cluster Search configuration, using Vagrant and Virtualbox (or other supported providers).
+This environment enables the deployment of a BOSSS XDR Indexer cluster with Cross Cluster Search configuration, using Vagrant and Virtualbox (or other supported providers).
 
 It also generates the node's required certificates using the `wazuh-certs-tool` and copy them to each node's `/home/vagrant`
 directory, leaving a copy in `tools/ccs`.

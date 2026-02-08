@@ -1,4 +1,4 @@
-# Wazuh Indexer build scripts and flow reference
+# BOSSS XDR Indexer build scripts and flow reference
 
 ## Introduction
 
@@ -9,7 +9,7 @@ The packages' generation process consists on 2 steps:
 
 We usually generate the packages using GitHub Actions, however, the process is designed to be independent enough for maximum portability. GitHub Actions provides infrastructure, while the building process is self-contained in the application code.
 
-This guide includes development worthy information about the process to generate packages for Wazuh Indexer. For instructions about how to build Wazuh Indexer packages, refer to the instructions in the [README.md](./README.md).
+This guide includes development worthy information about the process to generate packages for BOSSS XDR Indexer. For instructions about how to build BOSSS XDR Indexer packages, refer to the instructions in the [README.md](./README.md).
 
 ## Scripts reference
 

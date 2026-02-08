@@ -1,8 +1,8 @@
-# Wazuh Indexer packages generation guide
+# BOSSS XDR Indexer packages generation guide
 
 This guide includes instructions to generate distribution packages locally using Docker.
 
-Wazuh Indexer supports any of these combinations:
+BOSSS XDR Indexer supports any of these combinations:
 
 - distributions: `['tar', 'deb', 'rpm']`
 - architectures: `['x64', 'arm64']`
@@ -31,7 +31,7 @@ Before you get started, make sure to clean your environment by running `./gradle
 
 ## Building wazuh-indexer packages
 
-The `builder` image automates the build and assemble process for the Wazuh Indexer and its plugins, making it easy to create packages on any system.
+The `builder` image automates the build and assemble process for the BOSSS XDR Indexer and its plugins, making it easy to create packages on any system.
 
 Use the script under `wazuh-indexer/build-scripts/builder/builder.sh` to build a package.
 
@@ -78,7 +78,7 @@ Then, start a container with:
 docker run -p 9200:9200 -it --rm wazuh-indexer:<version>-<revision>
 ```
 
-The `build-and-push-docker-image.sh` script automates the process to build and push Wazuh Indexer Docker images to our repository in quay.io. The script takes serveral parameters. Use the `-h` option to display them.
+The `build-and-push-docker-image.sh` script automates the process to build and push BOSSS XDR Indexer Docker images to our repository in quay.io. The script takes serveral parameters. Use the `-h` option to display them.
 
 To push images, credentials must be set at environment level:
 

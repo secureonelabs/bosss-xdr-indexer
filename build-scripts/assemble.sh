@@ -454,7 +454,7 @@ function assemble_deb() {
     # Generate final package
     debmake \
         --fullname "Wazuh Team" \
-        --email "hello@wazuh.com" \
+        --email "hello@secureonelabs.com" \
         --invoke debuild \
         --package wazuh-indexer \
         --native \

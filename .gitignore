@@ -81,3 +81,6 @@ doc-tools/missing-doclet/bin/
 
 # log files
 *.log
+
+# Rebranding script output
+REBRAND_REPORT.json
